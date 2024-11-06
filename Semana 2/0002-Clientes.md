@@ -14,7 +14,7 @@ El sistema requiere un módulo que permite acceder a los datos personales de los
 
 ## Factores de decisión
 
-* RF2.1 Acceso a datos de clientes: El sistema permitirá a los usuarios autorizados consultar la base de datos de clientes.
+* RF2.1 Acceso a datos de clientes: El sistema permitirá a los usuarios autorizados consultar la base de datos de Clientes a través del módulo Clientes.
 
 ## Opciones consideradas
 
