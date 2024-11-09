@@ -10,7 +10,7 @@ informed: Rubén y Hugo
 
 ## Context and Problem Statement
 
-El sistema deberá implementar al menos 6 modulos que encapsularán la lógica de negocio de la empresa. Estos módulos son: Clientes, Pedidos, Reparto y rutas, Estadísticas, Incidencias y Pagos. 
+El sistema deberá implementar al menos 6 modulos que encapsularán la lógica de negocio de la empresa. Estos módulos son: Clientes, Pedidos, Reparto y rutas, Estadísticas, Incidencias y Pagos.
 
 ## Decision Drivers
 
@@ -35,14 +35,15 @@ Opción elegida "Híbrida REST-Eventos", porque es la opción que se ajusta de m
 
 ### REST
 
-* Bueno, porque facilita la comunicación entre los módulos
-* Bueno, porque permite la conexión en tiempo real entre usuarios y módulos
-* Bueno, porque permite la gestión de peticiones HTTP/REST
-* Bueno, porque facilita la conexión con la plataforma STRIPE
-* Bueno, porque facilita el uso de operaciones CRUD
-* Malo, porque requiere un diseño general del sistema más complejo y preciso
+{example | description | pointer to more information | …}
 
-### {title of other option}
+* Good, because {argument a}
+* Good, because {argument b}
+* Neutral, because {argument c}
+* Bad, because {argument d}
+* …
+
+### Eventos
 
 {example | description | pointer to more information | …}
 
@@ -51,3 +52,12 @@ Opción elegida "Híbrida REST-Eventos", porque es la opción que se ajusta de m
 * Neutral, because {argument c}
 * Bad, because {argument d}
 * …
+
+### Híbrida REST-Eventos
+
+* Bueno, porque facilita la comunicación entre los módulos
+* Bueno, porque permite la conexión en tiempo real entre usuarios y módulos
+* Bueno, porque permite la gestión de peticiones HTTP/REST
+* Bueno, porque facilita la conexión con la plataforma STRIPE
+* Bueno, porque facilita el uso de operaciones CRUD
+* Malo, porque requiere un diseño general del sistema más complejo y preciso
