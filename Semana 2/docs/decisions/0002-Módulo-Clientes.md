@@ -6,32 +6,26 @@ consulted: Shania y Gonzalo
 informed: Rubén y Hugo
 ---
 
-# Módulo Clientes
+# 0002-Módulo-Clientes
 
-## Contexto y enunciado del problema
+## Context and Problem Statement
 
 El sistema requiere un módulo que permite acceder a los datos personales de los clientes.
 
-## Factores de decisión
+## Decision Drivers
 
 * RF2.1 Acceso a datos de clientes: El sistema permitirá a los usuarios autorizados consultar la base de datos de Clientes a través del módulo Clientes.
 
-## Opciones consideradas
+## Considered Options
 
 * REST
 * Eventos
 
-## Resultado de la decisión
+## Decision Outcome
 
 Opción elegida: "REST", porque es la opción adecuada para un CRUD que permitirá el acceso controlado y seguro a los datos de los clientes.
 
-### Consecuencias
-
-* Bueno, porque facilita implementaciones más robustas (e.g. de seguridad, lógica de negocios y caché) para el acceso a los datos de los clientes.
-* Bueno, porque facilita el acceso frecuente a los datos de los clientes.
-* Malo, porque requiere un diseño general del sistema más complejo y preciso puesto que el resto de módulos no necesariamente utilizarán REST.
-
-## Pros y Cons de las opciones
+## Pros and Cons of the Options
 
 ### REST
 

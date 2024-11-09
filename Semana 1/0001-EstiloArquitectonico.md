@@ -9,7 +9,7 @@ informed: {list everyone who is kept up-to-date on progress; and with whom there
 
 # {short title, representative of solved problem and found solution}
 
-## Migración de monolito a microservicios para compañia de productos alimenticios
+## Context and Problem Statement
 
 Una compañía de productos alimenticios pretende migrar la arquitectura de un sistema monolítico a una basada en microservicios de manera que la arquitectura sea menos rígida. La arquitectura existente cuenta con una parte de clientes PC y móvil que acceden a los datos de la empresa alojados en 2 BBDD SQL (Clientes, Pedidos). La BBDD de Clientes contiene datos de clientes y pagos mientras que la BBDD de Pedidos se encarga de almacenar los datos restantes. El acceso actual se pretende que sea sustituido por protocolos HTTP/REST mediante un componente Gateway adecuado el cual facilita el acceso desde los clientes PC y móvil. La lógica de negocio de la empresa cuenta con los siguientes módulos con diferentes grados decriticidad.
 
@@ -24,7 +24,7 @@ Asimismo, la gestión de los pedidos debe proporcionar una forma de gestionar to
 
 La nueva arquitectura debe contar con los elementos software y/o tecnología adecuados para poder ejecutar los microservicios.
 
-## Factores de decisión
+## Decision Drivers
 
 * Los clientes deben poder acceder de forma segura a su información guardada en ambas bases de datos de la empresa
 * Acceso por protoclos HTTP/REST
@@ -36,30 +36,17 @@ La nueva arquitectura debe contar con los elementos software y/o tecnología ade
 * La conexión con STRIPE
 * Diferencias en criticidad de los módulos
 
-## Opciones consideradas
+## Considered Options
 
 * REST
 * De eventos
 * Orientada a servicios
 
-## Resultado de la decisión
+## Decision Outcome
 
 Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
-<!-- This is an optional element. Feel free to remove. -->
-### Consecuencias
-
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
-* … <!-- numbers of consequences can vary -->
-
-<!-- This is an optional element. Feel free to remove. -->
-### Confirmación
-
-{Describe how the implementation of/compliance with the ADR can/will be confirmed. Is the chosen design and its implementation in line with the decision? E.g., a design/code review or a test with a library such as ArchUnit can help validate this. Note that although we classify this element as optional, it is included in many ADRs.}
-
-<!-- This is an optional element. Feel free to remove. -->
-## Pros y Cons de las opciones
+## Pros and Cons of the Options
 
 ### {title of option 1}
 
@@ -84,6 +71,6 @@ Chosen option: "{title of option 1}", because {justification. e.g., only option,
 * …
 
 <!-- This is an optional element. Feel free to remove. -->
-## Más información
+## More information
 
 {You might want to provide additional evidence/confidence for the decision outcome here and/or document the team agreement on the decision and/or define when/how this decision the decision should be realized and if/when it should be re-visited. Links to other decisions and resources might appear here as well.}

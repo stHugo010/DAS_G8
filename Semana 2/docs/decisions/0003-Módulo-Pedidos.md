@@ -6,33 +6,28 @@ consulted: Shania y Gonzalo
 informed: Rubén y Hugo
 ---
 
-# Modulo de pedidos 
+# 0003-Módulo-Pedidos
 
-## Contexto y enunciado del problema
+## Context and Problem Statement
 
 El sistema requiere un módulo permite a los clientes realizar pedidos de los productos a la empresa. Si un cliente intenta realizar un pedido se le permite un número máximo de 3 de intentos. Las prestaciones y escalabilidad del sistema van a depender del número de pedidos por hora. El sistema de pedidos pasa siempre por una cadena de tres fases: Preprocesado del pedido, autorización y aceptación, de manera que no es posible pasar a un estado sino se procesado correctamente el estado anterior.
 
-## Factores de decisión
+## Decision Drivers
 
 * RF3.3 Preprocesado de pedidos: El módulo Pedidos comenzará los pedidos con su preprocesado. 
 * RF3.4 Autorización de pedidos: El módulo Pedidos, tras el preprocesado, debe recibir el contenido del pedido, autorizarlo y notificar al módulo Pagos.
 * RF3.5 Aceptación de pedidos: El sistema, tras la autorización y la conformación de pago, registra el pedido en la base de datos y manda un mensaje de éxito al cliente.
 
-## Opciones consideradas
+## Considered Options
 
 * Eventos
 * REST
 
-## Resultado de la decisión
+## Decision Outcome
 
 Opción elegida: "Eventos", porque es la opción adecuada para un sistema que requiere una comunicación entre módulos y una secuencia de pasos para la realización de un pedido.
 
-### Consecuencias
-
-* Bueno, porque facilita el desarrollo paso a paso de los pedidos.
-* Bueno, porque es el estilo de comunicación que se adecua a la comunicación entre módulos necesaria para gestionar los pedidos.
-
-## Pros y Cons de las opciones
+## Pros and Cons of the Options
 
 ### Eventos
 
