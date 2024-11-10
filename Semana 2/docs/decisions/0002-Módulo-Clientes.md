@@ -15,6 +15,7 @@ El sistema requiere un módulo que permite acceder a los datos personales de los
 ## Decision Drivers
 
 * RF2.1 Acceso a datos de clientes: El sistema permitirá a los usuarios autorizados consultar la base de datos de Clientes a través del módulo Clientes.
+* RF2.2 Gestión  de clientes: El sistema permitirá gestionar los datos de los clientes (crear, modificar y eliminar).
 
 ## Considered Options
 
