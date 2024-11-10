@@ -14,7 +14,7 @@ El sistema requiere un módulo permite a los clientes realizar pedidos de los pr
 
 ## Decision Drivers
 
-* RF3.3 Preprocesado de pedidos: El módulo Pedidos comenzará los pedidos con su preprocesado. 
+* RF3.3 Preprocesado de pedidos: El módulo Pedidos comenzará los pedidos con su preprocesado.
 * RF3.4 Autorización de pedidos: El módulo Pedidos, tras el preprocesado, debe recibir el contenido del pedido, autorizarlo y notificar al módulo Pagos.
 * RF3.5 Aceptación de pedidos: El sistema, tras la autorización y la conformación de pago, registra el pedido en la base de datos y manda un mensaje de éxito al cliente.
 

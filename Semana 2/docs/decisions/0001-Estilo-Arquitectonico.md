@@ -18,8 +18,7 @@ El sistema deberá implementar al menos 6 modulos que encapsularán la lógica d
 * RF1.2 Componente Gateway: El sistema debe contar con un Gateway que facilite y centralice el acceso a los distintos módulos.
 * RF1.3 Peticiones HTTP/REST: El sistema recibirá peticiones HTTP/REST de los usuarios que serán gestionadas por el Gateway.
 * RF3.2 Pedido procesado en tres fases: El módulo Pedidos pasará por tres fases ordenadas para la gestión de un pedido y la comunicación con el módulo Pagos.
-* RF
-* RF
+* RF6.3 Comunicación con el módulo Reparto y Rutas, y Estadísticas: El módulo Incidencias enviará la información al módulo Reparto y Rutas, y al módulo Estadísticas para que se encarguen de las modificaciones pertinentes.
 
 ## Considered Options
 
@@ -35,23 +34,17 @@ Opción elegida "Híbrida REST-Eventos", porque es la opción que se ajusta de m
 
 ### REST
 
-{example | description | pointer to more information | …}
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
+* Bueno, porque permite la fácil gestión de peticiones HTTP/REST
+* Bueno, porque facilita la conexión con la plataforma STRIPE
+* Bueno, porque facilita el uso de operaciones CRUD
+* Malo, porque no se ajusta las necesidades de comunicaión entre módulos del sistema
+* Malo, porque no es la mejor opción para mantener información actualizada en tiempo real
 
 ### Eventos
 
-{example | description | pointer to more information | …}
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
+* Bueno, porque facilita la comunicación entre los módulos
+* Bueno, porque permite la conexión en tiempo real entre usuarios y módulos
+* Malo, porque añade complejidad innecesaria al acceso a datos por parte de los clientes, al no permitir operaciones CRUD
 
 ### Híbrida REST-Eventos
 
