@@ -1,3 +1,5 @@
+# Requisitos funcionales
+
 | Número | Nombre                                             | Descripción                                                                                                                                               |
 |--------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RF1    | Implementación de una arquitectura basada en microservicios | El sistema estará dividido en módulos y basado en microservicios con las tecnologías y software adecuados para ejecutarlo.                                 |
