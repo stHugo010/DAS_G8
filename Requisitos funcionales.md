@@ -28,4 +28,5 @@
 | RF14.1 | Solicitar usuario y clave a clientes            | La capa de Seguridad solicita a los clientes usuario y clave para el acceso al sistema.                                           |
 | RF14.2 | Solicitar doble factor de autentificación       | La capa de Seguridad solicita a los clientes el uso de un doble factor de autentificación.                                        |
 | RF15   | Acceso seguro a pasarela de pago                | La capa de Seguridad cuenta con un acceso seguro a la pasarela de pago.                                                           |
-| RF15.1 | Temporizador para el pago                       | La capa de Seguridad proporciona un temporizador que limita el tiempo para realizar el pago.                                      |
+| RF15.1 | Encriptación de los datos de la tarjeta         | La capa de Seguridad encripta los datos de las tarjetas usadas para el pago por el cliente.                                       |
+| RF15.2 | Temporizador para el pago                       | La capa de Seguridad proporciona un temporizador que limita el tiempo para realizar el pago.                                      |
