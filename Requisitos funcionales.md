@@ -7,7 +7,7 @@
 | RF3    | Tipos de cliente                                | Los clientes se dividen en clientes de PC y clientes de móvil.                                                                    |
 | RF4    | Capa de datos                                   | El sistema cuenta con una capa de acceso a datos.                                                                                 |
 | RF5    | Componente Gateway                              | El sistema cuenta con un Gateway. Los clientes se conectan al sistema a través del Gateway mediante protocolos HTTP/REST.         |
-| RF6    | Diferenciación de clientes                      | El componente Gateway diferencia entre los clientes PC y los clientes móvil.                                                      |
+| RF6    | Funcionalidad del Gateway                       | El componente Gateway gestiona las peticiones de los clientes PC y los clientes móvil para facilitar el acceso.                   |
 | RF7    | Módulo Clientes                                 | La lógica de negocio cuenta con un módulo crítico Clientes.                                                                       |
 | RF7.1  | Funcionalidad del módulo Clientes               | El módulo Clientes accede a datos personales de los clientes.                                                                     |
 | RF8    | Módulo Pedidos                                  | La lógica de negocio cuenta con un módulo crítico Pedidos.                                                                        |
