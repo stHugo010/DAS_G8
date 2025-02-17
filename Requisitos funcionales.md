@@ -2,7 +2,7 @@
 
 | Número | Nombre                                          | Descripción                                                                                                                       |
 | ------ | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| RF1    | Arquitectura basada en microservicios           | El sistema cuenta con una arquitectura basada en microservicios.                                                                  |
+| RF1    | Arquitectura con microservicios                 | El sistema debe contar con microservicios para ciertos módulos de su arquitectura.                                                |
 | RF2    | Capa de cliente                                 | El sistema cuenta con una capa de cliente.                                                                                        |
 | RF3    | Tipos de cliente                                | Los clientes se dividen en clientes de PC y clientes de móvil.                                                                    |
 | RF4    | Capa de datos                                   | El sistema cuenta con una capa de acceso a datos.                                                                                 |
