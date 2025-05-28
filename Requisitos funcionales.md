@@ -13,7 +13,7 @@
 | RF8    | Módulo Pedidos                                  | La lógica de negocio cuenta con un módulo crítico Pedidos.                                                                        |
 | RF8.1  | Funcionalidad del módulo Pedidos                | El módulo Pedidos permite a los clientes realizar pedidos de los productos a la empresa.                                          |
 | RF8.2  | Límite de intentos de pedido                    | El módulo Pedidos limita a los clientes el número de intentos de pedido a 3 por sesión.                                           |
-| RF9    | Módulo Reparto                                  | La lógica de negocio cuenta con un módulo Reparto.                                                                                |
+| RF9    | Módulo Reparto                                  | La lógica de negocio cuenta con un módulo crítico Reparto.                                                                                |
 | RF9.1  | Funcionalidad del módulo Reparto                | El módulo Reparto gestiona el reparto de productos a los clientes asignando a cada camión una ruta predefinida.                   |
 | RF9.2  | Generación de rutas para el reparto             | El módulo Reparto genera las rutas mediante un algoritmo de planificación de rutas basado en técnicas de investigación operativa. |
 | RF10   | Módulo Estadísticas                             | La lógica de negocio cuenta con un módulo no crítico Estadísticas.                                                                |
